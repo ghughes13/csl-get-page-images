@@ -1,0 +1,12 @@
+#get-page-image-page h1 {
+  text-align: center;
+}
+
+#get-page-image-page .img-container {
+  background: #fff;
+  box-shadow: 22px 18px 28px 1px rgba(0,0,0,0.47);
+  padding: 10px;
+  margin: 10px;
+  border: solid black 1px;    
+  display: inline-block;
+}

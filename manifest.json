@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Get Page Images",
+  "description": "Grabs all images on a page and allows you to download any you choose.",
+  "version": "1.0",
+  "action": {
+    "default_icon": "CSS3_logo.png"
+  },
+  "permissions": ["activeTab", "storage"],
+  "content_scripts": [
+    {
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
