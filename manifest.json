@@ -3,18 +3,27 @@
   "name": "Get Page Images",
   "description": "Grabs all images on a page and allows you to download any you choose.",
   "version": "1.0",
+  "author": {
+    "email": "CybershiftLabs@gmail.com"
+  },
+  "icons": {
+    "16": "images/GetPageImages-logo-16x16.png",
+    "32": "images/GetPageImages-logo-32x32.png",
+    "48": "images/GetPageImages-logo-48x48.png",
+    "128": "images/GetPageImages-logo-128x128.png"
+  },
   "action": {
-    "default_icon": "CSS3_logo.png"
+    "default_icon": "images/GetPageImages-logo.png"
   },
   "permissions": ["activeTab", "storage"],
   "content_scripts": [
     {
       "css": ["styles.css"],
-      "js": ["content.js"],
+      "js": ["scripts/content.js"],
       "matches": ["<all_urls>"]
     }
   ],
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "scripts/background.js"
   }
 }

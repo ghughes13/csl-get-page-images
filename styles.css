@@ -1,5 +1,11 @@
 #get-page-image-page h1 {
   text-align: center;
+  font-size: 30px;
+}
+
+#get-page-image-page p {
+  font-size: 20px;
+  text-align: center;
 }
 
 #get-page-image-page .img-container {
