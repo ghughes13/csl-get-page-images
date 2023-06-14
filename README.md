@@ -49,7 +49,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@Ghughes139](https://twitter.com/Ghughes139) - cybershiftlabs@gmail.com
+Garrett Hughes - [@Ghughes139](https://twitter.com/Ghughes139) - cybershiftlabs@gmail.com
 
 Project Link: [https://github.com/ghughes13/get-page-images](https://github.com/ghughes13/get-page-images)
 
