@@ -1,0 +1,8 @@
+===1.0.0===
+-Created basic working version of the extension
+
+===1.1.0===
+-Now collects css background images for download as well
+-No longer displays tracking pixels (1x1 pixel) in the downloadable image set.
+-Resolves issue where cross origin images could not be downloaded correctly.
+-Small style adjustments.

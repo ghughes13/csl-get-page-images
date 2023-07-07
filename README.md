@@ -10,11 +10,10 @@
 
 ## Roadmap
 
-- [ ] Get Alt Tag For Images (If available)
-- [ ] Improve UI
-- [ ] Convert basic image grid to masonry image grid
-- [ ] Get images used in the css background property
+- [x] Get Alt Tag For Images (If available)
+- [x] Get images used in the css background property
 - [ ] Figure out way to detect if image should be displayed on dark background for accessibility.
+- [ ] Improve UI (Very ambiguous, I know. Not sure what to change exactly, but I know if could be better.)
 
 See the [open issues](https://github.com/ghughes13/get-page-images) for a full list of proposed features (and known issues).
 
