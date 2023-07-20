@@ -12,10 +12,10 @@
 
 - [x] Get Alt Tag For Images (If available)
 - [x] Get images used in the css background property
-- [ ] Figure out way to detect if image should be displayed on dark background for accessibility.
-- [ ] Improve UI (Very ambiguous, I know. Not sure what to change exactly, but I know if could be better.)
+- [x] Figure out way to detect if image should be displayed on dark background for accessibility. (This doesn't seem possible due to cross origin restrictions. Just added dark mode instead)
+- [x] Improve UI
 
-See the [open issues](https://github.com/ghughes13/get-page-images) for a full list of proposed features (and known issues).
+Want to propose a new feature or see a bug? Open an issue here - [open issues](https://github.com/ghughes13/get-page-images)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
