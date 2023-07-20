@@ -15,7 +15,7 @@
 - [x] Figure out way to detect if image should be displayed on dark background for accessibility. (This doesn't seem possible due to cross origin restrictions. Just added dark mode instead)
 - [x] Improve UI
 
-Want to propose a new feature or see a bug? Open an issue here - [open issues](https://github.com/ghughes13/get-page-images)
+Want to propose a new feature or see a bug? Open an issue here - [open issues](https://github.com/ghughes13/get-page-images/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
