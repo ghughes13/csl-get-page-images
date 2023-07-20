@@ -6,3 +6,7 @@
 -No longer displays tracking pixels (1x1 pixel) in the downloadable image set.
 -Resolves issue where cross origin images could not be downloaded correctly.
 -Small style adjustments.
+
+===1.2.0===
+-Fixed bug preventing SVG downloads
+-Added dark mode to make white SVGs more easily visible.

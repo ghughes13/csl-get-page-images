@@ -1,3 +1,15 @@
+body {
+  margin: 0;
+}
+
+body.dark-mode {
+  background: #4b4b4b;
+}
+
+#get-page-image-page.dark-mode {
+  color: white;
+}
+
 #img-container {
   display: flex;
   flex-wrap: wrap;
@@ -8,10 +20,16 @@
 #get-page-image-page h1 {
   text-align: center;
   font-size: 30px;
+  margin-top: 0;
 }
 
 #get-page-image-page p {
   font-size: 20px;
+  text-align: center;
+}
+
+#get-page-image-page label {
+  font-size: 16px;
   text-align: center;
 }
 
@@ -26,7 +44,87 @@
   border-radius: 10px;
 }
 
+#get-page-image-page.dark-mode .img-container {
+  background: #252525;
+  border: solid #252525 1px;
+}
+
 #get-page-image-page img {
   cursor: pointer;
   max-width: 90vw;
+}
+
+#get-page-image-page .header {
+  background: #fafafa;
+  border-bottom: solid grey 1px;
+  box-shadow: 22px 18px 28px 1px rgba(0,0,0,0.47);
+  margin-bottom: 15px;
+  padding-top: 25px;
+}
+
+#get-page-image-page.dark-mode .header {
+  background: #4b4b4b;
+  border-color: #4b4b4b
+}
+
+#get-page-image-page .toggle-btn  {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 25px;
+  font-style: italic;
+}
+
+#get-page-image-page .toggle-btn input {
+  opacity: 0;
+  width: 65px;
+  height: 35px;
+  border-radius: 30px;
+  cursor:pointer;
+  margin-top: 18px;
+}
+
+#get-page-image-page .toggle-btn span:focus {
+  outline: 1px solid #2cad66;
+}
+
+#get-page-image-page .toggle-btn span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #252525;
+  transition: 0.3s;
+  border-radius: 30px;
+  pointer-events: none;
+  width: 65px;
+  height: 35px;
+  top: 40px;
+}
+
+#get-page-image-page .toggle-btn span:before {
+  position: absolute;
+  content: "";
+  height: 28px;
+  width: 28px;
+  left: 3px;
+  bottom: 3.6px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+#get-page-image-page .toggle-btn input:checked + span {
+  background-color: #fafafa;
+}
+
+#get-page-image-page.dark-mode span:before {
+  background-color: #252525;
+}
+
+#get-page-image-page .toggle-btn input:checked + span:before {
+  transform: translateX(30px);
 }

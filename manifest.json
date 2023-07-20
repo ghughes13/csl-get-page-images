@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Get Page Images",
   "description": "Grabs all images on a page and allows you to download any you choose.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "email": "CybershiftLabs@gmail.com"
   },

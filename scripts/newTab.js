@@ -16,13 +16,13 @@ chrome.storage.local.get(["imageDataArray"]).then((result) => {
       const img = e.target;
       let downloadSrc = img.src;
 
-      if (img.src.includes("data:image")) {
-        downloadSrc = "data:image/png;base64" + img.src;
-      }
-
       chrome.downloads.download({
         url: downloadSrc,
       });
     }
+  });
+
+  document.querySelector("#dark-mode-trigger").addEventListener("click", () => {
+    document.querySelector("body").classList.toggle("dark-mode");
   });
 });

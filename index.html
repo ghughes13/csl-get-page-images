@@ -1,8 +1,18 @@
 <html>
   <link rel="stylesheet" href="styles.css" />
   <body id="get-page-image-page">
-    <h1>Get Page Images</h1>
-    <p>Click on any image to download it.</p>
+    <div class="header">
+      <h1>Get Page Images</h1>
+      <p>Click on any image to download it.</p>
+      <div class="dark-mode-trigger-containe toggle-btn">
+        <label for="dark-mode-trigger">
+          *Having trouble seeing light images? They might be white SVGs. Try
+          Turning on dark mode.
+        </label>
+        <input type="checkbox" id="dark-mode-trigger" />
+        <span></span>
+      </div>
+    </div>
     <div id="img-container"></div>
   </body>
   <script src="scripts/newTab.js
