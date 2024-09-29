@@ -14,6 +14,7 @@
 - [x] Get images used in the css background property
 - [x] Figure out way to detect if image should be displayed on dark background for accessibility. (This doesn't seem possible due to cross origin restrictions. Just added dark mode instead)
 - [x] Improve UI
+- [] Add way to download all images with one click
 
 Want to propose a new feature or see a bug? Open an issue here - [open issues](https://github.com/ghughes13/get-page-images/issues)
 
